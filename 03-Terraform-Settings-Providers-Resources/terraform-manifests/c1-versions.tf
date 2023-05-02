@@ -18,3 +18,17 @@ Note-1:  AWS Credentials Profile (profile = "default") configured on your local 
 $HOME/.aws/credentials
 */
 
+/*
+terraform {
+  required_vesrion = "~> 0.14"
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+provider "aws" {
+  region = "ap-south-1"
+}
+*/
